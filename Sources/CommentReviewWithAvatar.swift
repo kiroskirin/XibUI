@@ -8,12 +8,12 @@
 
 import UIKit
 
-final class CommentReviewWithAvatar: BaseUI {
+public class CommentReviewWithAvatar: BaseUI {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
 
-    override var nibName: String {
+    override public var nibName: String {
         return "CommentReviewWithAvatar"
     }
 }
