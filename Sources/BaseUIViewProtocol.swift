@@ -16,7 +16,7 @@ protocol XibBaseViewProtocol: class {
 
 extension BaseView where Self: UIView {
     func loadNib(_ name: String) {
-        Bundle.main.loadNibNamed(name, owner: self, options: nil)
+        Bundle(identifier: "com.kiroskirin.XibUI")?.loadNibNamed(name, owner: self, options: nil)
     }
 
     func bindingView() {
