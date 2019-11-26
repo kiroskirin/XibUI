@@ -12,6 +12,8 @@
 		5E29674E238D3DD3005E7CF1 /* XibUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E296740238D3DD3005E7CF1 /* XibUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E296758238D3E7F005E7CF1 /* BaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E296757238D3E7F005E7CF1 /* BaseUI.swift */; };
 		5E29675A238D3EBC005E7CF1 /* BaseUIViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E296759238D3EBC005E7CF1 /* BaseUIViewProtocol.swift */; };
+		5E29675C238D4177005E7CF1 /* CommentReviewWithAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E29675B238D4177005E7CF1 /* CommentReviewWithAvatar.swift */; };
+		5E29675E238D4185005E7CF1 /* CommentReviewWithAvatar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E29675D238D4185005E7CF1 /* CommentReviewWithAvatar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		5E29674D238D3DD3005E7CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E296757238D3E7F005E7CF1 /* BaseUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUI.swift; sourceTree = "<group>"; };
 		5E296759238D3EBC005E7CF1 /* BaseUIViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewProtocol.swift; sourceTree = "<group>"; };
+		5E29675B238D4177005E7CF1 /* CommentReviewWithAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentReviewWithAvatar.swift; sourceTree = "<group>"; };
+		5E29675D238D4185005E7CF1 /* CommentReviewWithAvatar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentReviewWithAvatar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				5E296757238D3E7F005E7CF1 /* BaseUI.swift */,
 				5E296759238D3EBC005E7CF1 /* BaseUIViewProtocol.swift */,
+				5E29675B238D4177005E7CF1 /* CommentReviewWithAvatar.swift */,
+				5E29675D238D4185005E7CF1 /* CommentReviewWithAvatar.xib */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E29675E238D4185005E7CF1 /* CommentReviewWithAvatar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +227,7 @@
 			files = (
 				5E296758238D3E7F005E7CF1 /* BaseUI.swift in Sources */,
 				5E29675A238D3EBC005E7CF1 /* BaseUIViewProtocol.swift in Sources */,
+				5E29675C238D4177005E7CF1 /* CommentReviewWithAvatar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

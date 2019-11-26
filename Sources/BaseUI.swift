@@ -8,9 +8,9 @@
 
 import UIKit
 
-typealias BaseUI = XibBaseUI
-public class XibBaseUI: UIView, BaseView {
-    @IBOutlet weak var contentView: UIView!
+public class BaseUI: UIView, BaseView {
+
+    @IBOutlet public weak var contentView: UIView!
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
